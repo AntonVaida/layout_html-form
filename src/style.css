@@ -1,11 +1,6 @@
 
-form :first-child {
-  margin-top: 0;
-  margin-bottom: 0;
-}
+.fieldset {
 
-fieldset {
-  
   margin-top: 20px;
   margin-bottom: 20px;
   box-sizing: border-box;
@@ -15,11 +10,16 @@ fieldset {
   display: block;
 }
 
+.fieldset > * {
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
 .form-field__first {
   margin-top: 0;
 }
 
-fieldset > * {
-  box-sizing: border-box;
-  margin-top: 10px;
+.fieldset__first {
+  margin-top: 0;
+  margin-bottom: 0;
 }
