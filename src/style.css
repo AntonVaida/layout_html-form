@@ -1,24 +1,12 @@
-
-.fieldset {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  box-sizing: border-box;
-}
-
 .form-field {
   display: block;
+  margin-bottom: 10px;
 }
 
-.fieldset > * {
-  box-sizing: border-box;
-  margin-top: 10px;
+.fieldset {
+  margin-bottom: 20px;
 }
 
-.form-field__first {
-  margin-top: 0;
-}
-
-.fieldset__first {
-  margin-top: 0;
+.fieldset > *:last-child {
   margin-bottom: 0;
 }
